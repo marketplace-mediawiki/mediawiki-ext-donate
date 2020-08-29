@@ -1,4 +1,4 @@
-# Information / Информация
+# Information
 
 Система пожертвований на:
 
@@ -9,7 +9,7 @@
 - кошелёк Ethereum;
 - кошелёк Monero.
 
-## Install / Установка
+## Install
 
 1. Загрузите папки и файлы в директорию `extensions/MW_EXT_Donate`.
 2. В самый низ файла `LocalSettings.php` добавьте строку:
@@ -18,7 +18,7 @@
 wfLoadExtension( 'MW_EXT_Donate' );
 ```
 
-## Syntax / Синтаксис
+## Syntax
 
 ```html
 {{#donate: ya-wallet =
@@ -30,6 +30,6 @@ wfLoadExtension( 'MW_EXT_Donate' );
 }}
 ```
 
-## Donations / Пожертвования
+## Donations
 
 - [Donation Form](https://donation-form.github.io/)
